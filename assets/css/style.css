@@ -1,0 +1,108 @@
+body {
+	background: url(../imgs/abstract.jpg)no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+}
+body {
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif', 'sans-serif';
+}
+.gif {
+	border: #000 solid 2px;
+}
+.gifContainer {
+	margin: 5px;
+	display: inline-grid;
+}
+.searchButtons {
+	margin: 3px 5px;
+}
+.gifRating {
+	color: #000;
+	font-size: 17px;
+}
+.panel-default>.panel-heading {
+	color: #fff;
+	background-color: #591E03;
+	border-color: #ddd;
+}
+.gif.center {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gif:hover {
+	cursor: pointer;
+	border: #f1c40f solid 2.5px;
+}
+.panel, .panel-heading {
+	background: none;
+}
+.ui2.teal.message {
+	background-color: #E1F7F7;
+	color: #10A3A3;
+	box-shadow: 0 0 0 1px #10A3A3 inset, 0 0 0 0 transparent;
+	max-width: 100%;
+	font-size: 1em;
+	position: relative;
+	min-height: 1em;
+	margin: 1em 0;
+	background: #F8F8F9;
+	padding: 1em 1.5em;
+	line-height: 1.4285em;
+	border-radius: .28571429rem;
+	margin-top: 0;
+}
+@keyframes CoralBtn {
+ 0% {
+background-color: #f08080;
+}
+ 50% {
+background-color: #f08080;
+}
+ 51% {
+background-color: #26a69a;
+}
+ 100% {
+background-color: #26a69a;
+}
+}
+.coralBtn {
+	animation-name: CoralBtn;
+	animation-iteration-count: 5;
+	animation-duration: 1.5s smooth;
+}
+.ui.button:active {
+	color: white;
+	background: #26a69a;
+}
+#searchButtonsContainer {
+	margin-top: 10%;
+}
+#clear {
+	border: #26a69a 1px solid;
+	color: #26a69a;
+	font-size: 200%;
+	background: none;
+}
+.bigButton {
+	max-width: 200%;
+	min-width: 100%;
+}
+.ui {
+	max-width: 60%;
+}
+
+.brand-logo {
+  margin-left: 150px;  
+}
+.navbar-fixed {
+    z-index: 9999;
+}
+
+.card-image {
+	z-index: 999;
+}
+
+.responsive-img {
+	z-index: 9999;
+}
